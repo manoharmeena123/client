@@ -1,0 +1,110 @@
+.container {
+  width: 100%;
+  padding: 20px;
+}
+
+.form-container {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.table-container {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.table-container table {
+  width: 100%;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  padding: 8px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.edit-btn {
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background-color: #218838;
+}
+
+.counts {
+  margin-top: 20px;
+}
+
+.counts p {
+  margin-bottom: 5px;
+}
+
+#name {
+  margin-bottom: 3px;
+}
+
+#age {
+  margin-bottom: 10px;
+}
+.error{
+  font-size: smaller;
+  color: red;
+  float: left;
+}
+.custom-modal {
+  position: fixed;
+  top: 10%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+  z-index: 1050;
+}
+.update-button{
+  margin-top: 22px;
+}
